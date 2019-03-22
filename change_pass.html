@@ -1,0 +1,107 @@
+<head>
+    <title>Change Password</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imges/ico.png">
+    <link rel="stylesheet" type="text/css" href="css/change_pass.css">
+</head>
+
+<body id="body">
+    <!--  بداية الرأس   -->
+    <div align="center">
+        <!--  بداية البار الاول  -->
+        <div id="bar">
+            <font>College of  Computer Science &amp; Information Technology</font>
+        </div>
+        <!--    نهاية البار الاول  -->
+
+        <!--     بداية الشعار والفريم-->
+        <div direction="right" id="between">
+
+            <div align="center" id="betleft">
+
+                <form action="index.html" method="post" dir="ltr">
+                    <div id="links">
+                        <p><a href="home.html">HOME</a>
+                        </p>
+                        <p><a href="show_result.html">SHOW RESULT</a>
+                        </p>
+                        <p><a href="change_pass.html">CHANGE PASS</a>
+                        </p>
+                        <p><a href="user_info.html">USER INFO</a>
+                        </p>
+                    </div>
+                    <div>
+                        <input id="logon" type="submit" value="LOGOUT" name="user_name" size="30em">
+                    </div>
+                </form>
+            </div>
+            <div style="display:inline-block">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div align="center" id="betright" style="display: inline-block;">
+                <img src="imges/icon.png" style="max-width: 7.5em; max-height: 7.5em; margin-top: 0.3em;">
+
+            </div>
+        </div>
+        <!--     نهاية الشعار والفريم-->
+
+        <!--  بداية بار القوائم  -->
+
+        <div id="result_list">
+            <h2 style="color:#fff;background-color:rgb(50,70,90);border-style:solid;border-top-left-radius:1em;border-top-right-radius:1em;border-color:rgb(200,60,60);">تغيير كلمة السر</h2>
+        </div>
+        
+
+
+        <!--  نهاية بار القوائم  -->
+    </div>
+    <!--  نهاية الرأس  -->
+    
+    <div dir="ltr" id="new_pass_table"  style=" height: 21.8em;;margin-top: -1.3em;background-image: url(imges/galaxy_s5_2-wallpaper-2560x1920.jpg)">
+    <table style="background-color:rgba(200,60,60,0.3);color:#fff ; width: 30em;border-color:rgb(200,60,60);border-radius:6px;" dir="rtl" align="center" border="0em">
+        <tbody>
+            <form action="index.html" method="post" >
+				<tr>
+                    <td style="width: 200px" align="center">
+                        <input name="hashpasswd" id="hashpasswd" onkeyup="checkPass(); return false;" style="width: 20em" type="password">
+                    </td>
+                    <td class="btn btn-large btn-primary" align="center">
+                        New Password
+                    </td>
+            </tr>
+				<tr>
+                    <td style="width: 200px" align="center">
+                        <input name="clearpasswd" id="clearpasswd" onkeyup="checkPass(); return false;" style="width: 20em" type="password">
+                        <span id="confirmMessage">
+                        </span>
+                    </td>
+                    <td class="btn btn-large btn-primary" align="center">
+                        Confirm Password
+                    </td>
+            </tr>
+				<tr>
+                    <td colspan="2">
+                        <input id="Log_on_newpass" name="login" value="LOGON" type="submit" style="">
+                    </td>
+            </tr>
+            </form>
+				<tr>
+                    <td colspan="2">
+                        <a id="skip" href="result.php">
+                            skip
+                        </a>
+                    </td>
+                </tr>
+				</tbody>
+        </table>
+    </div>
+
+
+
+
+    <div id="endbar">
+        <font>Copyright © 2016 Muath Assawadi &amp; Ahmed Al-haddad &amp; Ali Al-hmadani  &amp; Mhammed Boghdah</font>
+    </div>
+
+
+</body>

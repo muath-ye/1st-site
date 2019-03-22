@@ -1,0 +1,153 @@
+<head>
+    <title>بيان درجات الطالب</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imges/ico.png">
+    <link rel="stylesheet" type="text/css" href="css/user_info.css">
+</head>
+
+<body id="body">
+    <!--  بداية الرأس   -->
+    <div align="center">
+        <!--  بداية البار الاول  -->
+        <div id="bar">
+            <font>College of  Computer Science &amp; Information Technology</font>
+        </div>
+        <!--    نهاية البار الاول  -->
+
+        <!--     بداية الشعار والفريم-->
+        <div direction="right" id="between">
+
+            <div align="center" id="betleft">
+
+                <form action="index.html" method="post" dir="ltr">
+                    <div id="links">
+                        <p><a href="home.html">HOME</a>
+                        </p>
+                        <p><a href="show_result.html">SHOW RESULT</a>
+                        </p>
+                        <p><a href="change_pass.html">CHANGE PASS</a>
+                        </p>
+                        <p><a href="user_info.html">USER INFO</a>
+                        </p>
+                    </div>
+                    <div>
+                        <input id="logon" type="submit" value="LOGOUT" name="user_name" size="30em">
+                    </div>
+                </form>
+            </div>
+            <div style="display:inline-block">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div align="center" id="betright" style="display: inline-block;">
+                <img src="imges/icon.png" style="max-width: 7.5em; max-height: 7.5em; margin-top: 0.3em;">
+
+            </div>
+        </div>
+        <!--     نهاية الشعار والفريم-->
+
+        <!--  بداية بار القوائم  -->
+
+        <div id="result_list">
+            <h2 style=" color:#fff;background-color:rgb(50,70,90);border-style:solid;border-top-left-radius:1em;border-top-right-radius:1em;border-color:rgb(200,60,60)">بيان درجات الطالب</h2>
+        </div>
+        
+
+
+        <!--  نهاية بار القوائم  -->
+    </div>
+    <!--  نهاية الرأس  -->
+    
+    <div id="UInfo"  style="direction: rtl;padding-right: 7em;padding-left: 5em;margin-top: -1.3em;background-image: url(imges/galaxy_s5_2-wallpaper-2560x1920.jpg)">
+        
+        <h2>
+            User information
+        </h2>
+        <h4>
+            معلومات المستخدم مهمة  في حالة فقدان كلمة السر، حيث يمكن استرجاع كملة السر بإستخدام المعلومات التي سوف تعبئها
+        </h4>
+        <hr>
+        <form method="post" name="infoform" id="infoform" action="info2.php">
+        <p>
+            <label for="name">Your Name:</label>
+            <br>
+            <label for="name">معاذ احمد عبدالله السوادي</label>
+
+        </p>
+        <p>
+            <label for="email">Email Address:</label>
+            <br>
+            <input style="background-color: rgb(102, 204, 102);" name="email" id="email" value="" onkeyup="checkEmail(); return false;" type="text">
+            <br>
+            <label for="cemail">Email confirmation:</label>
+            <br>
+            <input style="background-color: rgb(102, 204, 102);" name="cemail" id="cemail" value="" onkeyup="checkEmail(); return false;" type="text">
+        </p>
+        <p>
+            <label for="Sques1">Security Question:</label>
+            <br>
+            <label for="Sques2">What is your phone number?</label>
+            <br>
+            <input name="Aques" id="Aques" value="" onkeyup="checkEmail(); return false;" type="text">
+        </p>
+        <button type="submit" id="submit1" name="submit1" value="Submit" disabled="">SUBMIT</button>
+            <br>
+            <a href="result.php">skip</a>
+		</form>
+		            
+        <h2>User Picture</h2>
+        <h4>لكي يظهر كشف بيان الحالة مع الصورة قم برفع صورتك الشخصية، بحيث لايتجاوز حجم الصورة 1ميقابايت</h4>
+        <hr>
+        <form method="post" name="picform" id="picform" action="info2.php" enctype="multipart/form-data">
+
+        <p>
+            <label for="pic">Your Picture:</label>
+            <br>
+            <input name="timestamp" id="timestamp" value="1453396903" type="hidden">
+            <input name="token" id="token" value="602b9c40c589289931dac17585439741" type="hidden">
+        </p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input name="pic" id="pic" onchange="showFileSize();" type="file">
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+               <button type="submit" id="submit2" name="submit2" value="Upload" disabled="">UPLOAD</button>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                <a href="result.php">skip</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                            </table>
+                        </td>
+            
+                        <td>
+            
+                        </td>
+        
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+
+
+
+    <div id="endbar">
+        <font>Copyright © 2016 Muath Assawadi &amp; Ahmed Al-haddad &amp; Ali Al-hmadani  &amp; Mhammed Boghdah</font>
+    </div>
+
+
+</body>
