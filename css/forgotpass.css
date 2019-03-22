@@ -1,0 +1,197 @@
+#body {
+    margin: 0em;
+    background-image: url(../imges/bg.png);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#bar {
+    border-top-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    min-height: 1.4em;
+    padding: 0.3em;
+    width: 100%;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: rgb(49, 70, 90);
+    position: fixed;
+    
+    z-index: 3;
+    margin-bottom: auto;
+}
+
+body #bar font {
+    color: #FFF;
+    font-size: 1em;
+}
+
+input:hover { color: rgb(200,60,60); }
+/*input:active { color: #F93 }*/
+input:active { color: #d03f42 }
+input:focus { border-color: rgb(200,60,60)}
+
+input #login:hover { color: rgb(200,60,60); }
+input #login:active { color: #d03f42 }
+input #login:focus { border-color: rgb(200,60,60)}
+
+#forgot_pass {
+    text-decoration: none;
+    color: rgb(230, 60, 60);
+}
+
+#forgot_pass:hover {
+    text-decoration: none;
+    color: rgb(150,60,60);
+}
+
+#forgot_pass:active {
+    text-decoration: none;
+    color: rgb(204, 70, 70);
+}
+
+
+#between
+{
+    margin-bottom: 13.3em;
+}
+
+#between #betleft
+{
+    display:inline-block;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+
+#between #betright
+{
+    display:inline-block;
+    margin-top: 3em;
+}
+
+#betleft form div label p
+{
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    border-radius:0.3em;
+    width: 93px;
+    background-color: rgb(49, 70, 90);
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+}
+
+#betleft form #USER_ID_div
+{
+    padding-top: 0.3em;
+}
+
+#betleft form #password_div
+{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#betleft form #password_div label p
+{
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    border-radius: 0.3em;
+    width: 93px;
+    background-color: rgb(49, 70, 90);
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    margin-right: 1em;
+}
+
+#submit
+{
+    margin-top: -2px;
+    background-color: rgb(50, 70, 90);
+    border-radius: 0.3em;
+    border-color:rgb(200,60,60);
+    width: 25em;
+    padding-left: 0.6em;
+    text-align: center;color:#fff;
+}
+
+#betleft form div label #logon
+{
+    padding-left: 0.6em;
+    margin-left: 0.6em;
+    margin-top: -2px;
+}
+
+#betleft form div
+{
+    padding-top: 0.3;
+    padding-bottom: 0.3;
+}
+
+#endbar {
+ background-color: rgb(49, 70, 90);
+ border-bottom-style: solid;
+ border-top-left-radius:0.5em;
+ border-top-right-radius: 0.5em; 
+ border-bottom-color: rgb(208, 63, 66);     
+color: white;
+    text-align: center;
+    margin-bottom: -5em;
+    background-position: bottom;
+    margin-bottom: auto:
+}
+
+
+#icon {
+ max-width: 7.5em;
+    max-height: 7.5em;
+    margin-top: -2em;
+    padding-top:3em;
+    padding-bottom:1em;
+    background-color:rgb(50,70,90) ;
+    border-radius:0.5em   ;
+}
+
+
+
+#Email {
+    display: inline-block;
+    color: #fff;
+    width: 93px;
+    background-color: rgb(50,70,90);
+    border-radius:0.3em;
+    padding-left: 0.6em;
+    margin-left: 0.6em; 
+    margin-top: -2px;
+}
+
+
+#form {
+    margin-top: 3em;
+}
+
+#headline_pass {
+    background-color: rgba(50,70,90,1);
+    width: 9em;
+    color: #fff;
+    border-color: rgb(200,60,60);
+    border-style: solid;
+    border-radius:0.3em;
+    padding-bottom: 0.2em;
+}
+
+#information_recovery {
+    background-color: rgba(50,70,90,0.25);
+    width: 30em;
+    border-color: rgb(200,60,60);
+    border-style: solid;
+    border-radius:0.3em;
+    padding: 1em;
+}
+
+
+
+#result {
+    
+}

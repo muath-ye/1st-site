@@ -1,0 +1,384 @@
+#body_user {
+    margin: 0em;
+/*    background-image: url(../imges/bg.png);*/
+    background-image: url(../imges/templatemo_reasonbg.jpg);
+    background-attachment: fixed;
+}
+
+#bar {
+    border-top-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    min-height: 1.4em;
+    padding: 0.3em;
+    width: 100%;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: rgb(49, 70, 90);
+    position: fixed;
+    
+    z-index: 3;
+    margin-bottom: auto;
+}
+
+body #bar font {
+    color: #FFF;
+    font-size: 1em;
+}
+
+input:hover { color: rgb(200,60,60); }
+/*input:active { color: #F93 }*/
+input:active { color: #d03f42 }
+input:focus { border-color: rgb(200,60,60)}
+
+input #login:hover { color: rgb(200,60,60); }
+input #login:active { color: #d03f42 }
+input #login:focus { border-color: rgb(200,60,60)}
+
+#forgot_pass {
+    text-decoration: none;
+    color: rgb(230, 60, 60);
+}
+
+#forgot_pass:hover {
+    text-decoration: none;
+    color: rgb(150,60,60);
+}
+
+#forgot_pass:active {
+    text-decoration: none;
+    color: rgb(204, 70, 70);
+}
+
+
+#between
+{
+    
+}
+
+#between #betleft
+{
+    display:inline-block;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+#between #betright
+{
+    display:inline-block;
+    margin-top: 3em;
+}
+
+#betleft form div label p
+{
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    border-radius:0.3em;
+    width: 93px;
+    background-color: rgb(49, 70, 90);
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+}
+
+#betleft form #USER_ID_div
+{
+    padding-top: 0.3em;
+}
+
+#betleft form #password_div
+{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#logon
+{
+    margin-top: -2px;
+    background-color: rgb(50, 70, 90);
+    border-radius: 0.3em;
+    border-color:rgb(200,60,60);
+    width: 25em;
+    padding-left: 0.6em;
+    text-align: center;color:#fff;
+}
+
+#betleft form div label #logon
+{
+    padding-left: 0.6em;
+    margin-left: 0.6em;
+    margin-top: -2px;
+}
+
+#betleft form div
+{
+    padding-top: 0.3;
+    padding-bottom: 0.3;
+}
+/*بداية القائمة*/
+#result_list
+{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    border-bottom-color: rgb(208, 63, 66);
+    width: inherit;
+    height: 2em;
+    
+    background-color: rgb(49, 70, 90);
+    background-size: 100%;
+    
+}
+
+#result_list ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding-top:0px;
+    
+    float:right;
+    margin-right: 3em;
+}
+
+#result_list ul a
+{
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-weight:700;
+/*	font-size:12px;*/
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    font-size: 1em;
+}
+
+
+#result_list  p:hover {
+    color: rgb(255, 153, 51);
+}
+
+#result_list p:active {
+    color: rgb(208, 63, 66);
+}
+
+#result_list p:focus {
+    border-color: rgb(255, 255, 255);
+}
+/* نهاسة القائمة*/
+
+
+#list {
+    margin-top: 1em;
+    height: 18em;
+}
+
+#list ul li 
+{
+    list-style: none;
+    
+}
+
+#list ul li h1
+{
+color: white;
+font-size: 1em;
+}
+
+#list ul li h1 a
+{
+color: white;
+    text-decoration: none;
+}
+
+#list ul li h1 a:hover {
+    color: rgb(255, 153, 51);
+}
+
+#list ul li h1 a:active {
+    color: rgb(208, 63, 66);
+}
+
+#list ul li h1 a:focus {
+    border-color: rgb(255, 255, 255);
+}
+
+
+#contant {
+    margin-top: 1em;
+}
+
+#contant #img
+{
+    margin-left: 4em;
+    position: absolute;
+    z-index: 1;
+}
+
+#contant #sidbar
+{
+    margin-right: 4em;
+}
+
+#sidbar {
+    display: block;
+/*    border: 7.8125em;*/
+    
+    margin-left: -26px;
+    width: 29.5em;
+    background-color:rgba(50,70,90,0.75);
+    float: right;
+    border:0.2em;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(208, 63, 66);
+    height: 19.65em;
+}
+
+#img {
+    display: inline-block;
+    width: 2.5em;
+    height: 30em;
+    margin-top: auto;
+}
+
+#img #slider {
+    overflow: hidden;
+    width: 720px;
+    
+    display: inline-table;
+    width: 2.5em;
+    height: 1.5em;
+    
+    border-style: solid;
+    border-color:rgb(200,60,60);
+}
+
+#img #slider:hover {
+    border-color:rgb(50,70,90);
+}
+
+/*بداية المزلاق*/
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+ 
+body { margin: 0; }
+#img #slider { overflow: hidden;  border-radius:6px; width:720px;}
+#img #slider figure img { width: 20%; float: left; }
+#img #slider figure { 
+  position: relative;
+  width: 500%; /* width=(100% * number of pictures) */
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+/* نهاية المزلاق */
+
+
+
+
+#headline {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(200,60,60);
+}
+
+#IS {
+    margin-top: 2em;
+    display: inline-block;
+    background-color:rgba(50,70,90,0.75);
+    border-radius: 0.5em;
+    color: white;
+    border-top-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    border-bottom-color:rgb(208, 63, 66);
+    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+#CS {
+    display: inline-block;
+    background-color:rgba(50,70,90,0.75);
+    border-radius: 0.5em;
+    color: white;
+    border-top-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    border-bottom-color:rgb(208, 63, 66);
+    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#IT {
+    display: inline-block;
+    background-color:rgba(50,70,90,0.75);
+    border-radius: 0.5em;
+    color: white;
+    border-top-style: solid;
+    border-top-color: rgb(208, 63, 66);
+    border-bottom-color:rgb(208, 63, 66);
+    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline{
+margin-left: 2em;
+margin-right: 1em;    
+direction:rtl;    
+}
+
+.p{
+margin-left: 1em;
+margin-right: 2em;    
+direction: rtl;    
+}
+
+#endbar{
+ background-color: rgb(49, 70, 90);
+ border-bottom-style: solid;
+ border-top-left-radius:0.5em;
+ border-top-right-radius: 0.5em; 
+ border-bottom-color: rgb(208, 63, 66);     
+color: white;
+    text-align: center;
+}
+
+#links p{
+   display: inline-block; 
+    background-color: rgb(50,70,90);
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius:0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color:white;
+}
+
+#links p a{
+   text-decoration: none;
+    color:white;
+}
+
+.style4 {
+    background-color: rgba(200,60,60,0.25)
+}
+
+
+
+
